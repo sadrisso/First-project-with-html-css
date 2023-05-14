@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(46, 141, 224);
+}
+.container{
+    max-width:1000px;
+    background-color:bisque;
+    margin:0 auto;
+    border:solid 2px black;
+}
+.profile_image{
+    width:110px;
+    height:120px;
+    border-radius:50%;
+    padding:20px;
+    float:left;
+}
+.header_bio{
+    padding-top:50px;
+    float:left;
+    
+}
+.header_contact{
+    padding:50px;
+    float:right;
+}
+hr{
+    border:2px solid black;
+    width:95%;
+    margin:20px auto;
+}
+.clear_div{
+    clear:both;
+}
+.header_contact a:hover{
+    text-decoration:underline;
+    color:tomato;
+}
+.header_contact a{
+    color:mediumslateblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.left_div{
+    float:left;
+    width:35%;
+    
+}
+.right_div{
+    float:left;
+    width:65%;
+}
+
+.common_hr{
+    border:2px solid black;
+    border-bottom:none;
+    margin:20px auto;
+    width:95%;
+}
+.content{
+    padding:20px;
+}
+.header{
+    padding:20px;
+}
+.left-div{
+    width:35%;
+    float:left;
+}
+.right1{
+    width:25%;
+    float:left;
+}
+.right2{
+    width:25%;
+    float:right;
+}
+.bottom-container{
+    background-color:black;
+    text-align:center;
+    width:95%;
+    margin: 10px auto;
+    padding:10px;
+}
+.bottom-container a{
+    text-decoration:none;
+    color:white;
+    margin:20px;
+}
+.bottom-container p{
+    margin-top:20px;
+    color:white;
+}
+.bottom-container a:hover{
+    text-decoration:underline;
+    color: tomato;
+}
+.rightDiv{
+    width:65%;
+    float:left;
+}
+.leftDiv{
+    width:35%;
+    float:left;
+}
